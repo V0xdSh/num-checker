@@ -4,15 +4,6 @@ error_reporting(-0);
 $input = readline("File .txt : ");
 $lines = file($input);
 
-if(file_exists($input)){
-echo "Good!". "\n";
-    continue;
-}
-
-else{
-echo "Bad!!!". "\n";
-exit;
-}
 
 
 function curl_post_request($url, $data) 
