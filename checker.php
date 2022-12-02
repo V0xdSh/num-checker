@@ -6,6 +6,7 @@ $lines = file($input);
 
 if(file_exists($input)){
 echo "Good!". "\n";
+    continue;
 }
 
 else{
