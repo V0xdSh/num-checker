@@ -1,9 +1,6 @@
 <?php
-error_reporting(-0);
 
-$input = readline("File .txt : ");
-$lines = file($input);
-
+$lines = file("list.txt");
 
 
 function curl_post_request($url, $data) 
@@ -19,7 +16,6 @@ function curl_post_request($url, $data)
  
  
 while(1){
-
 
 
  $postData = array(
